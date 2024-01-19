@@ -72,3 +72,7 @@ nav a:hover{
     font-size: 1em;
     text-align: center;
 }
+
+img {
+    width: 500px;
+}
