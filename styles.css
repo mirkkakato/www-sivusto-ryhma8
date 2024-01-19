@@ -76,3 +76,22 @@ nav a:hover{
 img {
     width: 100px;
 }
+
+body {
+    margin: 0; 
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.header img {
+    height: 50px;
+    width: auto;
+}
