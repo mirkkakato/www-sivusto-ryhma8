@@ -112,3 +112,17 @@ button {
 button:hover {
     background-color: #555;
 }
+
+.address-section {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.address-section h2 {
+    color: #839C81;
+}
+
+.address-section p {
+    color: #839C81;
+}
