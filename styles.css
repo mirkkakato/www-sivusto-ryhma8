@@ -21,6 +21,20 @@ h1 {
 h2 {
     font-size: 24px;
     font-weight: bold;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+h3 {
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    margin-top: -10px;
+    padding-left: 50px;
+}
+
+header a{
+    text-decoration: none;
 }
 
 nav{
@@ -76,6 +90,7 @@ nav a:hover{
     grid-template-columns: auto auto auto;
     background-color: #839C81;
     padding: 10px;
+    padding-bottom: 40px;
 }
 
 .grid-item {
