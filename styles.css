@@ -1,6 +1,6 @@
 body {
     background-color: #507B54;
-    font-family: Playfair Display;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,12 @@ header {
     padding-bottom: 30px;
 }
 
+header a{
+    text-decoration: none;
+}
+
 h1 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 48px;
     color: black;
     text-align: center;
@@ -25,7 +30,8 @@ h2 {
     font-size: 24px;
     font-weight: bold;
     padding-top: 10px;
-    padding-left: 5px;
+    padding-left: 10px;
+    color: #333;
 }
 
 h3 {
@@ -35,8 +41,29 @@ h3 {
     margin-top: -10px;
 }
 
-header a{
+h4 {
+    font-size: 16px;
+    text-align: right;
+    margin-top: -10px;
+}
+
+h4 a {
     text-decoration: none;
+    color: #333;
+}
+
+h4 a:hover {
+    color: #666;
+}
+
+.tuote {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.hinta {
+    font-size: 0.9em;
+    padding-bottom: 20px;
 }
 
 nav{
@@ -66,6 +93,11 @@ footer {
     margin-top: auto;
 }
 
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 .row {
     display: flex;
@@ -84,9 +116,8 @@ footer {
     flex-wrap: nowrap;
     width: 50%;
     margin: 24px auto;
-    margin-bottom: 0;
     justify-content: center;
-    column-gap: 0px;
+    column-gap: 24px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -103,12 +134,19 @@ footer {
     grid-template-columns: auto auto auto;
     background-color: #839C81;
     padding: 10px;
-    padding-bottom: 40px;
 }
 
 .grid-item {
-    font-size: 1em;
     text-align: center;
+}
+
+.grid-container a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.grid-container a:hover {
+    color: #444;
 }
 
 img {
@@ -121,15 +159,11 @@ img {
 
 main {
     margin: 24px auto;
-    padding: 24px;
+    padding: 10px;
     width: 50%;
     background-color: #839C81;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-}
-
-h2 {
-    color: #333;
 }
 
 label {
