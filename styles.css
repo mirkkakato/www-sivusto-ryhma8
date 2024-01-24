@@ -163,7 +163,7 @@ img {
     width: 130px;
     float: left;
     margin: 10px;
-    margin-left: 250px;
+    margin-left: 10%;
     position: absolute;
 }
 
@@ -240,5 +240,19 @@ button:hover {
         margin: 10px;
         margin-top: -70px;
     }
+}
 
+@media only screen and (max-width: 900px) {
+    .logo {
+        height: 110px;
+        width: 110px;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .logo {
+        height: 90px;
+        width: 90px;
+    }
 }
